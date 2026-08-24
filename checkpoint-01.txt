@@ -1,0 +1,11 @@
+GitHub Repository:
+https://github.com/winfieldcarter/citc2375-semester-project/blob/main/client/css/js/images/README.md
+
+Render Site:
+https://citc2375-semester-project-7y6c.onrender.com
+
+Commit ID:
+0b0f948d0e11bbc1bb854abaf82992b9b5566f5d
+
+Project Topic:
+Create a website
