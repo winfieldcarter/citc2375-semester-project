@@ -1,0 +1,110 @@
+
+p {
+    color: rgb(255,255,255);
+}
+
+h1, h2 {
+    text-align: center;
+    color: #BCF4F5;
+    
+}
+
+header{
+    background-color: #252C3A;
+    margin: 5px;
+}
+
+a{
+    padding: 2px;
+}
+
+.links{
+    background-color: grey;
+    max-width: 100px;
+    border-radius: 10px;
+    padding: 0px 5px;
+    margin: 5px;
+    text-align:center;
+}
+
+body {
+  background-color: #10181E;
+  font-family: sans-serif; 
+}
+
+.container{
+    background-color: #10181E;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: top;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+
+.deck{
+    width: 2%;
+    border-style: solid black;
+    border-radius: 10px;
+    min-width: 200px;
+    max-width: 1400px;
+    max-height: 500px;
+    margin: 0px 5px 40px 5px;
+    
+    
+    
+ 
+}
+.deck:hover {
+  /* Moves up slightly and scales larger on hover */
+  transform: translateY(-1px) scale(1.05);
+}
+
+.deck1{
+    background: linear-gradient(90deg, rgb(48, 139, 9), 
+    rgb(247, 252, 182), rgb(61, 171, 226), rgba(19, 31, 15, 0.866));
+    box-shadow: 0 0 20px 0 rgba(83, 14, 14, 0.8);
+    height: 60%; 
+}
+
+.deck2{
+    background: linear-gradient(90deg, 
+    rgb(48, 139, 9),
+    rgba(66, 37, 4, 0.866),
+    rgb(61, 171, 226) );
+    box-shadow: 0 0 20px 0;
+    height: 60%; 
+}
+
+.deck3{
+    background: linear-gradient(90deg, rgb(48, 139, 9), 
+    rgb(247, 252, 182), rgb(61, 171, 226));
+    height: 60%; 
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    height: 60%; 
+}
+.container deck{
+    
+    
+    
+}
+
+.textbox{
+    
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    background-color: #252C3A;
+    padding: 5px 0px;
+    
+    
+}
+
+.link{
+    color: red;
+}
