@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/styles.css" rel="stylesheet" />
+  <title>MTG DECK LIST</title>
+</head>
+
+<header>
+    <h1>Magic The Gathering EDH Deck Lists</h1>
+    <div>
+        <a class = "link links" href = "index.html">Index</a>
+        <a class = "link links" href = "about.html">About</a>
+        <a class = "link links" href = "add.html">Add</a>
+    </div>
+</header>
+<body>
+    <form>
+        <p>
+            <label for="deckName">Deck Name:
+            <input type="text" id="deckName" name="deckName" required>
+            </label>
+        </p>
+        <p>
+            <fieldset>
+                <legend>Format</legend>
+                <label for="format">
+                    <input type="radio" id=""format" name="format" value="EDH" required> 
+                    <label for="format">EDH</label>
+                    <input type="radio" id="format" name="format" value="Standard"> 
+                    <label for="format">Standard</label>
+                    <input type="radio" id="format" name="format" value="Modern"> 
+                    <label for="format">Modern</label>
+                </label>
+            </fieldset>
+        </p>
+        <p>
+            <label for="deckDescription">Deck Description:
+            <textarea id="deckDescription" name="deckDescription" rows="4" cols="50" required></textarea>
+            </label>
+        </p>
+
+    </form>
+</body>
+<footer>
+    <h2>
+      Add More To Your Collection!
+    </h2>
+    <a class="links" href="https://www.tcgplayer.com">TCG Player</a>
+</footer>
