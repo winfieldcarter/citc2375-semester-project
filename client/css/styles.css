@@ -6,6 +6,14 @@ p {
     color: rgb(255,255,255);
 }
 
+label{
+    color: rgb(255,255,255);
+}
+
+fieldset{
+    color: rgb(255,255,255);
+}
+
 h1, h2 {
     text-align: center;
     color: #BCF4F5;
@@ -19,7 +27,7 @@ header{
 footer{
     background-color: #252C3A;
     margin: 20px 0px 0px 0px;
-    padding:5px
+    padding:5px;
 }
 
 a{
@@ -43,6 +51,9 @@ body {
   background-color: #10181E;
   font-family: sans-serif; 
   min-height: 100vh;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .container{
