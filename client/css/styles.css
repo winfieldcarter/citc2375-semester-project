@@ -14,11 +14,12 @@ h1, h2 {
 
 header{
     background-color: #252C3A;
-    margin: 5px;
+    margin: 0px 0px 20px 0px;
 }
 footer{
     background-color: #252C3A;
-    margin: 5px;
+    margin: 20px 0px 0px 0px;
+    padding:5px
 }
 
 a{
@@ -41,6 +42,7 @@ a{
 body {
   background-color: #10181E;
   font-family: sans-serif; 
+  min-height: 100vh;
 }
 
 .container{
