@@ -26,7 +26,7 @@
             <fieldset>
                 <legend>Format</legend>
                 <label for="format">
-                    <input type="radio" id=""format" name="format" value="EDH" required> 
+                    <input type="radio" id="format" name="format" value="EDH" required> 
                     <label for="format">EDH</label>
                     <input type="radio" id="format" name="format" value="Standard"> 
                     <label for="format">Standard</label>
@@ -36,11 +36,26 @@
             </fieldset>
         </p>
         <p>
+            <fieldset>
+                <legend>Color Identity</legend>
+                <input type="checkbox" id="color_identity" name="color_identity" value="White">
+                <label for="color_identity">White</label>
+                <input type="checkbox" id="color_identity" name="color_identity" value="Blue">
+                <label for="color_identity">Blue</label>
+                <input type="checkbox" id="color_identity" name="color_identity" value="Black">
+                <label for="color_identity">Black</label>
+                <input type="checkbox" id="color_identity" name="color_identity" value="Red">
+                <label for="color_identity">Red</label>
+                <input type="checkbox" id="color_identity" name="color_identity" value="Green">
+                <label for="color_identity">Green</label>
+            </fieldset>
+        </p>
+        <p>
             <label for="deckDescription">Deck Description:
             <textarea id="deckDescription" name="deckDescription" rows="4" cols="50" required></textarea>
             </label>
         </p>
-
+        <button type="submit" action="#">Submit</button>  
     </form>
 </body>
 <footer>
