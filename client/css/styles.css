@@ -1,17 +1,19 @@
 
 :root{
-    --color-background: red;
+    --color-background: #10181E;
+    --color-header: #252C3A;
+    --color-text: #ffffff;
 }
 p {
-    color: rgb(255,255,255);
+    color: var(--color-text);
 }
 
 label{
-    color: rgb(255,255,255);
+    color: var(--color-text);
 }
 
 fieldset{
-    color: rgb(255,255,255);
+    color: var(--color-text);
 }
 
 h1, h2 {
@@ -21,11 +23,11 @@ h1, h2 {
 }
 
 header{
-    background-color: #252C3A;
+    background-color: var(--color-header);
     margin: 0px 0px 20px 0px;
 }
 footer{
-    background-color: #252C3A;
+    background-color: var(--color-header);
     margin: auto 0px 0px 0px;
     padding:5px;
 }
@@ -48,7 +50,7 @@ a{
 }
 
 body {
-  background-color: #10181E;
+  background-color: var(--color-background);
   font-family: sans-serif; 
   min-height: 100vh;
   height: 100%;
@@ -132,7 +134,7 @@ img{
 }
 
 table, th, td{
-    color: white;
+    color: var(--color-text);
     border: solid;
     border-collapse: collapse;
 }
