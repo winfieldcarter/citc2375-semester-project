@@ -1,0 +1,6 @@
+Your name: Donald Carter
+GitHub repository URL: https://github.com/winfieldcarter/citc2375-semester-project.git
+Render frontend URL: https://citc2375-semester-project-7y6c.onrender.com
+The short identifier of your final Exam 1 commit: cb84a0b
+Demonstration format: Video 
+If submitting a video: https://drive.google.com/file/d/13Gvw3RrbG8IXMJmVsdGW7OT-cX0wlRch/view?usp=sharing

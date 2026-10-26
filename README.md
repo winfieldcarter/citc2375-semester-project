@@ -15,6 +15,11 @@ I have styled the page in a darker tone to allow the colors of the individual de
 Created app.js and linked it near the bottom of the body in index.html
 Created variables to track how man decks are posted and store the name and mana value of the commander. The for loop is used to print the info for each deck and also sum the mana cost of each for an average of all.
 
+## Project Progress Week 10: 
+Created data.js and linked it to index.html
+Created 6 new objects that contain id, name, type, description, color, and mana cost(mana);
+Created functions to perform differen tasks including: searching an array of objects and returning the deck name of a user defined ID, filters an array of objects into a new array of objects with type of "EDH", and a function to return avg mana cost of all objects in the array.
+
 ## Project Description:
 This site is designed to store multiple decks and store information including: deck name, color(s), format, and decklist. I will be able to select each deck from the home screen and edit each deck individually
 
